@@ -1,0 +1,34 @@
+
+import javax.swing.JOptionPane;
+
+import com.sun.codemodel.internal.JLabel;
+
+
+public class Java {
+
+	public Java() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		String meh;
+		 meh = "Really? Do You want to play a Game?";
+		int number1;   //create a vari
+		String first;  // same as up
+		 first =
+	JOptionPane.showInputDialog("enter a number so I can analyze you");//first is equal to whatever you type
+		 number1 = Integer.parseInt (first);
+		 JOptionPane.showMessageDialog(null, number1);// display firts
+		 String second; 
+		 second = "Good Job";
+		 String yay;
+		 yay = "Awesome! lets PlAY!";
+		 String hey;
+		 hey = "ok... bye!";
+		 String bele;
+		 String ans1 = null; 
+		 bele = "I'll assume you just said yes. LETS PLAY!";
+		 if (number1 < 10) { JOptionPane.showMessageDialog(null, second);}
+		 else {JOptionPane.showInputDialog(null , meh, ans1);}
+		 if
+		 
