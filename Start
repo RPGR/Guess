@@ -30,5 +30,5 @@ public class Java {
 		 bele = "I'll assume you just said yes. LETS PLAY!";
 		 if (number1 < 10) { JOptionPane.showMessageDialog(null, second);}
 		 else {JOptionPane.showInputDialog(null , meh, ans1);}
-		 if
+		 if (
 		 
